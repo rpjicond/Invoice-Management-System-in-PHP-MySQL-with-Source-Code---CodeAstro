@@ -1,13 +1,50 @@
-Instructions: How to Run?
+# Invoice Management System - Installation Guide
 
-    After you finish downloading the project, unzip the project file and head over to your XAMPP directory.
-    There you’ll find a folder naming “htdocs”.
-    Inside the “htdocs” folder, paste the project folder (not the .zip one, but the extracted one).
-    Open your favorite browser; we recommend using Google Chrome or Mozilla Firefox.
-    Then, go to URL “http://localhost/phpmyadmin“.
-    Create a Database with a name that is provided inside the “01 LOGIN DETAILS & PROJECT INFO.txt”.
-    Click on the “Import” tab and choose the database file (.sql) which is provided under the folder naming “DATABASE FILE”.
-    After setting up all these, go to URL “http://localhost/[ PROJECT_FOLDER_NAME ]/“
-    All the login details are provided inside the project folder, check that out and enter in order to use it.
+This guide provides step-by-step instructions to set up and run the **Invoice Management System** PHP project.
 
-And there you have it, a full setup of the Invoice Management System project in PHP. For this particular PHP project, PHP Version 5.6 or Newer is required because the project does not operate with the oldest PHP version. So, users with the oldest PHP version (older than 5.6) might face various problems while operating it. As a result, you’ll need to manage your PHP version (only if you’re using the old version) at the moment. Also, Download Free Invoicing System Project in PHP MySQL Source Code. So, this online invoice system PHP project is a fully functional project for all the intermediate levels that broads vast knowledge into such PHP web applications. In conclusion, this whole PHP project with free source code is an absolute project and a meaningful way for the users to learn and explore more about it.
+---
+
+## How to Run?
+
+### 1. **Download and Extract the Project**
+   - Download the project files.
+   - Extract the downloaded `.zip` file.
+
+### 2. **Move Project Files to XAMPP Directory**
+   - Navigate to your XAMPP installation directory.
+   - Locate the `htdocs` folder inside the XAMPP directory.
+   - Copy the extracted project folder (not the `.zip` file) into the `htdocs` folder.
+
+### 3. **Set Up the Database**
+   - Open your preferred web browser (Google Chrome or Mozilla Firefox recommended).
+   - Go to the URL: `http://localhost/phpmyadmin`.
+   - Create a new database with the name specified in the `01 LOGIN DETAILS & PROJECT INFO.txt` file (located in the project folder).
+   - Click on the **Import** tab in phpMyAdmin.
+   - Select the database file (`.sql`) from the folder named `DATABASE FILE` in the project directory.
+   - Import the file to populate your database.
+
+### 4. **Run the Project**
+   - Go to the URL: `http://localhost/[ PROJECT_FOLDER_NAME ]/`
+     - Replace `[ PROJECT_FOLDER_NAME ]` with the name of the folder you pasted into the `htdocs` directory.
+   - Use the login credentials provided in the project folder (check the `01 LOGIN DETAILS & PROJECT INFO.txt` file).
+
+---
+
+## System Requirements
+- **PHP Version**: 5.6 or newer
+  - Note: This project does not support PHP versions older than 5.6. If you're using an older version, upgrade your PHP to avoid potential issues.
+- **Database**: MySQL (set up via phpMyAdmin)
+- **Web Server**: XAMPP or equivalent (with Apache and MySQL enabled)
+
+---
+
+## Additional Information
+- This project provides an excellent learning opportunity for intermediate developers, offering insight into PHP and MySQL-based web applications.
+- For any additional instructions or troubleshooting, refer to the files and documentation included in the project.
+
+---
+
+### License
+This project is provided as-is with free source code for educational purposes. Feel free to explore, modify, and expand upon it.
+
+Enjoy your journey into PHP web development! 🚀
